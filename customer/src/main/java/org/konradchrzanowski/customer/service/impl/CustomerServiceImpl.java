@@ -1,5 +1,6 @@
 package org.konradchrzanowski.customer.service.impl;
 
+import lombok.AllArgsConstructor;
 import org.konradchrzanowski.customer.domain.Customer;
 import org.konradchrzanowski.customer.payload.CustomerRegistrationRequest;
 import org.konradchrzanowski.customer.repository.CustomerRepository;
@@ -7,13 +8,10 @@ import org.konradchrzanowski.customer.service.CustomerService;
 import org.springframework.stereotype.Service;
 
 @Service
+@AllArgsConstructor
 public class CustomerServiceImpl implements CustomerService {
 
     private final CustomerRepository customerRepository;
-
-    public CustomerServiceImpl(CustomerRepository customerRepository) {
-        this.customerRepository = customerRepository;
-    }
 
     @Override
     public void registerCustomer(CustomerRegistrationRequest customerRegistrationRequest) {
