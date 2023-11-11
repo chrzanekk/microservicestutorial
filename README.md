@@ -5,7 +5,7 @@ Tech stack:
 - Hibernate 5.4.32
 - Maven
 - RestAPI
-- PostreSQL
+- PostgreSQL
 - Docker
 - Lombok
 
