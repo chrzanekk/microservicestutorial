@@ -33,7 +33,7 @@ public class CustomerServiceImpl implements CustomerService {
         }
 
         Customer savedCustomer = customerRepository.saveAndFlush(customer);
-        FraudCheckResponse response = restTemplate.getForObject("http://localhost:8081/api/fraud-check/{customerId}",
+        FraudCheckResponse response = restTemplate.getForObject("http://FRAUD/api/fraud-check/{customerId}",
                 FraudCheckResponse.class,
                 savedCustomer.getId());
         if(response.isFraudster()) {
