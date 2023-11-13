@@ -10,5 +10,7 @@ Tech stack:
 - Lombok
 - OpenFeign
 - Eureka Discovery Server
+- Sleuth
+- Zipkin
 
 tech stack will be updated in next steps of implementation
