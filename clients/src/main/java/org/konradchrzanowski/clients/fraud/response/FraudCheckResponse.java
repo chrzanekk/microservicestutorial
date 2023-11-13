@@ -1,4 +1,4 @@
-package org.konradchrzanowski.fraud.responses;
+package org.konradchrzanowski.clients.fraud.response;
 
 public record FraudCheckResponse(Boolean isFraudster) {
 }
