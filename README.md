@@ -8,9 +8,10 @@ Tech stack:
 - PostgreSQL
 - Docker
 - Lombok
-- OpenFeign
-- Eureka Discovery Server
-- Sleuth
-- Zipkin
+- Spring Cloud OpenFeign
+- Spring Cloud Netflix Eureka Discovery Server
+- Spring Cloud Sleuth
+- Spring Cloud Zipkin
+- Spring Cloud Gateway
 
 tech stack will be updated in next steps of implementation
