@@ -8,5 +8,7 @@ Tech stack:
 - PostgreSQL
 - Docker
 - Lombok
+- OpenFeign
+- Eureka Discovery Server
 
 tech stack will be updated in next steps of implementation
