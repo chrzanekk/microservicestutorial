@@ -13,5 +13,6 @@ Tech stack:
 - Spring Cloud Sleuth
 - Spring Cloud Zipkin
 - Spring Cloud Gateway
+- Spring Boot RabbitMQ
 
 tech stack will be updated in next steps of implementation
