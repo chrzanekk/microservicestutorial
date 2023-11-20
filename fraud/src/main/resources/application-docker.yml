@@ -6,7 +6,7 @@ spring:
     name: fraud
   datasource:
     username: admin
-    url: jdbc:postgresql://postgres/fraud
+    url: jdbc:postgresql://postgres:5432/fraud
     password: password
   jpa:
     properties:
@@ -25,4 +25,3 @@ eureka:
       defaultZone: http://eureka-server:8761/eureka
     fetch-registry: true
     register-with-eureka: true
-    enabled: false
